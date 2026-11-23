@@ -14,6 +14,13 @@ describe('Pruebas para la Calculadora', () => {
     expect(sumar(2, 2)).toBe(4);
     expect(sumar(10, -5)).toBe(5);
     expect(sumar(0, 0)).toBe(0);
+    
+  });
+
+  it('debería restar dos números correctamente', () => {
+    expect(restar(2, 2)).toBe(0);
+    expect(restar(10, 5)).toBe(5);
+    expect(restar(0, 0)).toBe(0);
   });
 
 });
